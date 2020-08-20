@@ -1,0 +1,19 @@
+{
+  "name": "h1z1-server-quickstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Quentin Gruber",
+  "license": "MIT",
+  "scripts": {
+    "login-server": "set DEBUG=* & node loginserver.js",
+    "login-client": "set DEBUG=* & node loginclient.js",
+    "gateway-server": "set DEBUG=* & node GatewayServer.js",
+    "gateway-client": "set DEBUG=* & node GatewayClient.js",
+    "zone-server": "set DEBUG=* & node ZoneServer.js",
+    "zone-client": "set DEBUG=* & node ZoneClient.js"
+  },
+  "dependencies": {
+    "h1z1-server": "*"
+  }
+}

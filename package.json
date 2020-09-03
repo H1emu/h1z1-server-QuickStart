@@ -14,7 +14,7 @@
     "zone-client": "set DEBUG=* & node ZoneClient.js"
   },
   "dependencies": {
-    "h1z1-server": "^0.5.0",
+    "h1z1-server": "^0.5.2",
     "js-base64": "^3.4.5"
   }
 }

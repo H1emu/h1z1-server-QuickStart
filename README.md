@@ -1,6 +1,6 @@
 ## Usage
 
-run `npm i` to install dependencies / update packages.
+run `npm ci` to install dependencies.
 
 then run `npm run *NAMEOFSERVER/CLIENT*` the server/client of your choice.
 

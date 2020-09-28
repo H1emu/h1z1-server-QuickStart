@@ -1,8 +1,12 @@
 ## Usage
 
-run `npm ci` to install dependencies.
+run `npm ci` to install dependencies (stable).
 
-then run `npm run *NAMEOFSERVER/CLIENT*` the server/client of your choice.
+to install lastest h1z1-server run `npm udpate`
+
+run `npm start` to launch a loginserver + a zoneserver ( who are required to play )
+
+run `npm run *NAMEOFSERVER/CLIENT*` the server/client of your choice.
 
 Servers/Clients:
 

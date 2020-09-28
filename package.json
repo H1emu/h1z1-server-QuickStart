@@ -6,6 +6,7 @@
   "author": "Quentin Gruber",
   "license": "MIT",
   "scripts": {
+    "start": "npm-run-all --parallel login-server zone-server",
     "login-server": "set DEBUG=* & node loginserver.js",
     "login-client": "set DEBUG=* & node loginclient.js",
     "gateway-server": "set DEBUG=* & node GatewayServer.js",
@@ -14,7 +15,8 @@
     "zone-client": "set DEBUG=* & node ZoneClient.js"
   },
   "dependencies": {
-    "h1z1-server": "^0.6.0",
-    "js-base64": "^3.4.5"
+    "h1z1-server": "*",
+    "js-base64": "3.4.5",
+    "npm-run-all": "^4.1.5"
   }
 }

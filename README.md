@@ -2,7 +2,7 @@
 
 run `npm ci` to install dependencies (stable).
 
-to install lastest h1z1-server run `npm udpate`
+to install lastest h1z1-server run `npm update`
 
 run `npm start` to launch a loginserver + a zoneserver ( who are required to play )
 

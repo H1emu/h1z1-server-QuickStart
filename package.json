@@ -11,11 +11,11 @@
     "login-client": "set DEBUG=* & node loginclient.js",
     "gateway-server": "set DEBUG=* & node GatewayServer.js",
     "gateway-client": "set DEBUG=* & node GatewayClient.js",
-    "zone-server": "set DEBUG=* & node ZoneServer.js",
+    "zone-server": "set DEBUG=ZoneServer,zonepacketHandlers,H1Z1Protocol & node ZoneServer.js",
     "zone-client": "set DEBUG=* & node ZoneClient.js"
   },
   "dependencies": {
-    "h1z1-server": "*",
+    "h1z1-server": "^0.6.18",
     "js-base64": "3.4.5",
     "npm-run-all": "^4.1.5"
   }

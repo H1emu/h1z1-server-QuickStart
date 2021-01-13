@@ -25,4 +25,4 @@ Debug Logs will not be displayed under linux with these commands use `Debug logs
 
 ### Docker
 
-For users that known how to use Docker : https://hub.docker.com/repository/docker/h1emu/solo-server
+For users that known how to use Docker : https://hub.docker.com/r/h1emu/solo-server

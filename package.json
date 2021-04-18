@@ -6,12 +6,15 @@
   "author": "Quentin Gruber",
   "license": "MIT",
   "scripts": {
-    "start": "npm-run-all --parallel login-server zone-server",
-    "login-server": "set DEBUG=* & node loginserver.js",
+    "start": "npm-run-all --parallel login-server-2015 zone-server-2015",
+    "start-2016": "npm-run-all --parallel login-server-2016 zone-server-2016",
+    "login-server-2015": "set DEBUG=* & node loginserver2015.js",
+    "login-server-2016": "set DEBUG=* & node loginserver2016.js",
     "login-client": "set DEBUG=* & node loginclient.js",
     "gateway-server": "set DEBUG=* & node GatewayServer.js",
     "gateway-client": "set DEBUG=* & node GatewayClient.js",
-    "zone-server": "set DEBUG=ZoneServer & node ZoneServer.js",
+    "zone-server-2015": "set DEBUG=ZoneServer & node ZoneServer2015.js",
+    "zone-server-2016": "set DEBUG=ZoneServer & node ZoneServer2016.js",
     "zone-client": "set DEBUG=LoginServer & node ZoneClient.js"
   },
   "dependencies": {

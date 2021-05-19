@@ -13,7 +13,7 @@
     "login-client": "set DEBUG=* & node loginclient.js",
     "gateway-server": "set DEBUG=* & node GatewayServer.js",
     "gateway-client": "set DEBUG=* & node GatewayClient.js",
-    "zone-server-2015": "set DEBUG=ZoneServer & node ZoneServer2015.js",
+    "zone-server-2015": "set DEBUG= & node ZoneServer2015.js",
     "zone-server-2016": "set DEBUG=ZoneServer & node ZoneServer2016.js",
     "zone-client": "set DEBUG=LoginServer & node ZoneClient.js"
   },

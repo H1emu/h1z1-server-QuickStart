@@ -10,12 +10,8 @@
     "start-2016": "npm-run-all --parallel login-server-2016 zone-server-2016",
     "login-server-2015": "set DEBUG=LoginServer & node loginserver2015.js",
     "login-server-2016": "set DEBUG=LoginServer & node loginserver2016.js",
-    "login-client": "set DEBUG=* & node loginclient.js",
-    "gateway-server": "set DEBUG=* & node GatewayServer.js",
-    "gateway-client": "set DEBUG=* & node GatewayClient.js",
     "zone-server-2015": "node ZoneServer2015.js",
-    "zone-server-2016": "node ZoneServer2016.js",
-    "zone-client": "set DEBUG=LoginServer & node ZoneClient.js"
+    "zone-server-2016": "node ZoneServer2016.js"
   },
   "dependencies": {
     "h1z1-server": "*",

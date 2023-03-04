@@ -8,8 +8,8 @@
   "scripts": {
     "start": "npm-run-all --parallel login-server-2015 zone-server-2015",
     "start-2016": "npm-run-all --parallel login-server-2016 zone-server-2016",
-    "login-server-2015": "set DEBUG=LoginServer & node loginserver2015.js",
-    "login-server-2016": "set DEBUG=LoginServer & node loginserver2016.js",
+    "login-server-2015": "node loginserver2015.js",
+    "login-server-2016": "node loginserver2016.js",
     "zone-server-2015": "node ZoneServer2015.js",
     "zone-server-2016": "node ZoneServer2016.js"
   },

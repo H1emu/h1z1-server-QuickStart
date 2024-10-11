@@ -7,11 +7,11 @@
   "license": "MIT",
   "scripts": {
     "start": "node h1emu.js",
-    "start-2016": "node h1emu-2016.js",
+    "start-2016": "node --no-warnings --experimental-require-module h1emu-2016.js",
     "login-server-2015": "node loginserver2015.js",
     "login-server-2016": "node loginserver2016.js",
     "zone-server-2015": "node ZoneServer2015.js",
-    "zone-server-2016": "node ZoneServer2016.js"
+    "zone-server-2016": "node --no-warnings --experimental-require-module ZoneServer2016.js"
   },
   "dependencies": {
     "h1z1-server": "*"
